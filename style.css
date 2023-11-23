@@ -20,7 +20,11 @@ body{
   font-family: Helvetica, sans-serif;
 }
 #warna{
-    color: #4FA095;
+  color: #4FA095;
+}
+
+#color-dark{
+  color: #153462;
 }
 
 #buttonWarna{
@@ -30,7 +34,11 @@ body{
 }
 
 #buttonKecil{
-    background-color: #153462;
+  background-color: #153462;
+}
+
+.nav-link{
+  color: #153462;
 }
 
 #efect{
@@ -40,3 +48,33 @@ body{
     transform: scale(1.15);
 }
 
+.progress{
+  height: 25px;
+  background: #171b3c;
+  border-radius: 20px;
+  border: 1px solid #000;
+  box-shadow:  0 2px 2px #4f4c4c;
+  overflow: visible;
+  position: relative;
+}
+
+.progress .progress-bar{
+  border-radius: 20px;
+  border: 1px solid #000;
+  animation: animate-positive 2s;
+}
+
+.progress .progress-value{
+  width: 65px;
+  height: 25px;
+  line-height: 25px;
+  background: #171b3c;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 0 0 15px 15px;border: 1px solid #000;
+  border-top: 0;
+  box-shadow: 0 2px 2px #4f4c4c;
+  position: absolute;
+  bottom: -25px;
+  right: 20px;
+}
